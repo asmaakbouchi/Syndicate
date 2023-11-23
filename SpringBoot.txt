@@ -1,0 +1,16 @@
+
+
+@Generated Value(strategy = GenerationType.IDENTITY)
+Cela fonctionne parfaitement dans certaines situations, nous devons migrer notre base de données vers Oracle à ce moment-là, cela ne fonctionne pas correctement. 
+Si quelqu'un sait quelle est la différence réelle derrière cela et comment cela fonctionne?
+
+
+
+
+My sql: Jpa vs Herbirenate 
+Hibernate est l'implémentation ORM la plus avancée et utilise des directives JPA. 
+JPA fournit simplement la plate-forme de mappage objet/relationnel pour la gestion des données entre les objets/classes Java et une base de données relationnelle dans les applications Java.
+
+Pour Id Generation Type.Auto
+If you use GenerationType.AUTO then by default hibernate uses hibernate_sequence for the sequence which is used by all 
+tables and only one sequence value can be consumed at a time which means if sequence 1 is used then it can not be used anywhere else. But with GenerationType.IDENTITY the ids are only unique for that particular column. (Test DB - MySQL) 

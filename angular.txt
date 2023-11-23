@@ -1,0 +1,61 @@
+MVC : (Model-View-Controller ou Modèle-Vue-Contrôleur) est un modèle dans 
+la conception de logiciels. Il met l'accent sur la séparation entre
+la logique métier et l'affichage du logiciel. 
+Cette «séparation des préoccupations» permet une meilleure répartition
+du travail et une maintenance améliorée.
+
+Le pattern MVC permet de bien organiser son code source.
+ Il va vous aider à savoir quels fichiers créer, mais surtout à définir 
+leur rôle. Le but de MVC est justement de séparer la logique du code en 
+trois parties que l'on retrouve dans des fichiers distincts.
+
+
+Archetecture web 
+Un client web (Browser) communique avec le serveur web (Appache) en utilisant me protocole http
+
+-une application web se compose de deux parties
+
+_Backend ; s'occupe des traitements effectués coté serveur 
+	Technoligies utilisé: jee ,.net ,Node js
+ _Frontend; de presente des présentation coté client 
+	langue utilisé html css javascript
+ 
+la communication entre la partie fronend et la partie backend se fait en utilisant le protocole HTTP  
+
+
+
+
+
+
+
+
+
+-Angular : est un framework côté client, permet de créer la partie front end des applications 
+web ( ces partie qui s'appelle Web component: ) et SPA(Single page application réactive) open source, basé sur TypeScript,
+
+
+-une SPA est une application qui contient une seule page HTML (index.html) récupérée du serveur 
+
+-Pour naviguer entre les différentes partie de cette application , java Script est utilisé
+pour envoyer des requêtes http (AJAX) vers le serveur pour récupeérer du contenu dynamique généralement au format JSON
+
+Ce contenu JSON est ensuite affiché coté client au format HTML dans la même page 
+
+
+installation des outils 
+--Pour faciliter le développement d'une application Angular ,les outils suivant doivent être installés:
+
+Node Js : 
+Node js installe l'outile npm(Node Package Manager) qui permet de télécherger et instaler des bibliothèque java script
+
+installer ensuite  Angular CLI (Command Linee Interface) qui vous permet de générer ,compilier , tester et dépoloyé des projet angular
+___ npm i -g @angular/cli }-g global
+
+_pour cree un prj
+____ ng new FirstApp
+
+-pour tester un projet 
+____ ng serve
+
+--Projet editeur
+plusieur  IDE professionnels peuvent être utilisé pour editer le code [ VS code, Intellij

@@ -1,0 +1,7 @@
+Quand utiliser final en Java ?
+En langage Java, le mot-clé final indique qu'un élément ne peut être changé dans la suite du programme.
+ Il peut s'appliquer aux méthodes et attributs d'une classe et à la classe elle-même. Aussi, 
+il peut s'appliquer sur les paramètres d'une méthode et sur les variables locales.
+
+
+Postman est un outil permettant de manipuler une API depuis une interface graphique agréable. Accélérez votre développement grâce à Postman.
